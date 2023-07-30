@@ -1,0 +1,19 @@
+body{
+    background-image: url('../images/bg.jpg');
+}
+
+
+.navm{
+    color: rgba(255, 255, 255, 0.945);
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.navm:hover{
+    text-decoration: none;
+}
+
+.tagLine{
+    font-weight: lighter;
+}

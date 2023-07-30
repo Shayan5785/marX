@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/global.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="container-fluid">
+        <div class="row mt-4">
+            <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center ">
+                <div class="px-3">
+                    <a class="navm" href="../index.html">Who we are</a>
+                </div>
+                <div class="px-3">
+                    <a class="navm" href="programme.html">Programme</a>
+                </div>
+                <div class="px-3">
+                    <a class="navm" href="condition.html">Condition</a>
+                </div>
+                <div class="px-3">
+                    <a class="navm btn btn-primary" href="">Contacts</a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 " style="color: rgba(255, 255, 255, 0.945);">
+                <h2 style="color: #da2c43;">MAR<span class="fs-1">X</span></h2>
+                <p class="tagLine">Space Exploration</p>
+            </div>
+            <div class="col-12 col-lg-2 d-flex justify-content-end align-items-center">
+                <img src="../images/fb.png" alt="fb">
+                <img class="mx-3" src="../images/insta.png" alt="insta">
+            </div>
+            <div class="col-12 col-lg-2 d-flex align-items-center">
+                <p class="btn btn-primary mt-3">Tickets</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- form -->
+    <div class="container">
+        <div class="row mt-5">
+            <h1 class="col text-primary  border-bottom border-primary pb-4">Contact us</h1>
+        </div>
+        <form class="row">
+            <!-- name -->
+            <div class="col-lg-6 my-2">
+                <label class="text-white form-label">Name</label>
+                <input type="text" class="form-control">
+            </div>
+
+            <!-- email  -->
+            <div class="col-lg-6 my-2">
+                <label class="text-white form-label">Email</label>
+                <input type="email" class="form-control">
+            </div>
+
+            <!-- programm  -->
+            <div class="col-lg-6 my-2">
+                <label class="text-white form-label">Choose a Programme</label>
+                <select class="form-select d-block w-100 p-2">
+                    <option value="Artemis 1" selected>Artemis 1</option>
+                    <option value="Hubble Space Telescope">Hubble Space Telescope</option>
+                    <option value="International Space Station">International Space Station</option>
+                    <option value="James Webb Space Telescope">James Webb Space Telescope</option>
+                    <option value="Perseverance">Perseverance</option>
+                </select>
+            </div>
+
+            <!-- Gender -->
+            <div class="col-lg-6 my-auto text-white">
+                <label class="form-label d-block">Gender</label>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                        value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                        value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Female</label>
+                </div>
+            </div>
+
+            <!-- btn  -->
+            <div class="col d-flex justify-content-center">
+                <button class="w-50 my-4 btn btn-primary">submit</button>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
